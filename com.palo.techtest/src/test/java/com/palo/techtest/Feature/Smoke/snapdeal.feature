@@ -12,9 +12,9 @@ Feature: AutoPaymentFeature
     Then user should verify the search landing page
     When user should able select "20 - 30" facet
     And user should able select "Sony" facet
-    And user should able select "Inext" facet
+    And user should able select "JBL" facet
     And user should able select "Marshall" facet
-    And user should able to list down the product name, INR Price, Offer of the available brand "Sony","Inext","Marshall"
+    And user should able to list down the product name, INR Price, Offer of the available brand "Sony","JBL","Marshall"
     Then user should able to verify the brand name price and offer of the selected product "Sony" or "JBL" or "Marshall"
     And close browser
 
