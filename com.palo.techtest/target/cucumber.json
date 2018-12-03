@@ -1,0 +1,228 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#--------------------------------  Scenario Flow 1 --------------------------------------------------#"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 73424435089,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launching the browser",
+            "match": {
+              "location": "CommonSteps.launching_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Verify that user should able to search product , apply filter and verify the details of the selected product - Using_Scenario Outline",
+        "description": "",
+        "id": "autopaymentfeature;verify-that-user-should-able-to-search-product-,-apply-filter-and-verify-the-details-of-the-selected-product---using-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 170553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3401133524,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should able to enter \"Noise Cancellation headphone\" in search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Noise Cancellation headphone",
+                  "offset": 27
+                }
+              ],
+              "location": "SearchProduct.user_should_able_to_enter_in_search_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84388188722,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on search button",
+            "match": {
+              "location": "SearchProduct.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037056665,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should verify the search landing page",
+            "match": {
+              "location": "SearchProduct.user_should_verify_the_search_landing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22354977099,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should able select \"20 - 30\", \"Sony\",\"JBL\",\"Marshall\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20 - 30",
+                  "offset": 25
+                },
+                {
+                  "val": "Sony",
+                  "offset": 36
+                },
+                {
+                  "val": "JBL",
+                  "offset": 43
+                },
+                {
+                  "val": "Marshall",
+                  "offset": 49
+                }
+              ],
+              "location": "SearchProduct.user_should_able_select(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10412449138,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should able to list down the product name, INR Price, Offer of the available brand \"Sony\",\"JBL\",\"Marshall\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sony",
+                  "offset": 89
+                },
+                {
+                  "val": "JBL",
+                  "offset": 96
+                },
+                {
+                  "val": "Marshall",
+                  "offset": 102
+                }
+              ],
+              "location": "SearchProduct.user_should_able_to_list_down_the_product_name_INR_Price_Offer_of_the_available_brand(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10750169155,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should able to verify the brand name price and offer of the selected product \"Sony\" or \"JBL\" or \"Marshall\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sony",
+                  "offset": 83
+                },
+                {
+                  "val": "JBL",
+                  "offset": 93
+                },
+                {
+                  "val": "Marshall",
+                  "offset": 102
+                }
+              ],
+              "location": "SearchProduct.user_should_able_to_verify_the_brand_name_price_and_offer_of_the_selected_product_or_or(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14733770633,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close browser",
+            "match": {
+              "location": "CommonSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@snapdeal"
+          },
+          {
+            "line": 21,
+            "name": "@Using_ScenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "AutoPaymentFeature",
+    "description": "",
+    "id": "autopaymentfeature",
+    "keyword": "Feature",
+    "uri": "snapdeal.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@snapdeal"
+      }
+    ]
+  }
+]

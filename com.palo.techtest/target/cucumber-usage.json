@@ -1,0 +1,146 @@
+[
+  {
+    "source": "^user should able select \"([^\"]*)\", \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user should able select \"20 - 30\", \"Sony\",\"JBL\",\"Marshall\"",
+        "aggregatedDurations": {
+          "average": 22.354977099,
+          "median": 22.354977099
+        },
+        "durations": [
+          {
+            "duration": 22.354977099,
+            "location": "snapdeal.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should able to list down the product name, INR Price, Offer of the available brand \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user should able to list down the product name, INR Price, Offer of the available brand \"Sony\",\"JBL\",\"Marshall\"",
+        "aggregatedDurations": {
+          "average": 10.412449138,
+          "median": 10.412449138
+        },
+        "durations": [
+          {
+            "duration": 10.412449138,
+            "location": "snapdeal.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should verify the search landing page$",
+    "steps": [
+      {
+        "name": "user should verify the search landing page",
+        "aggregatedDurations": {
+          "average": 1.037056665,
+          "median": 1.037056665
+        },
+        "durations": [
+          {
+            "duration": 1.037056665,
+            "location": "snapdeal.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should able to verify the brand name price and offer of the selected product \"([^\"]*)\" or \"([^\"]*)\" or \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user should able to verify the brand name price and offer of the selected product \"Sony\" or \"JBL\" or \"Marshall\"",
+        "aggregatedDurations": {
+          "average": 10.750169155,
+          "median": 10.750169155
+        },
+        "durations": [
+          {
+            "duration": 10.750169155,
+            "location": "snapdeal.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launching the browser$",
+    "steps": [
+      {
+        "name": "Launching the browser",
+        "aggregatedDurations": {
+          "average": 73.424435089,
+          "median": 73.424435089
+        },
+        "durations": [
+          {
+            "duration": 73.424435089,
+            "location": "snapdeal.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on search button$",
+    "steps": [
+      {
+        "name": "user click on search button",
+        "aggregatedDurations": {
+          "average": 84.388188722,
+          "median": 84.388188722
+        },
+        "durations": [
+          {
+            "duration": 84.388188722,
+            "location": "snapdeal.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should able to enter \"([^\"]*)\" in search textbox$",
+    "steps": [
+      {
+        "name": "user should able to enter \"Noise Cancellation headphone\" in search textbox",
+        "aggregatedDurations": {
+          "average": 3.401133524,
+          "median": 3.401133524
+        },
+        "durations": [
+          {
+            "duration": 3.401133524,
+            "location": "snapdeal.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close browser$",
+    "steps": [
+      {
+        "name": "close browser",
+        "aggregatedDurations": {
+          "average": 14.733770633,
+          "median": 14.733770633
+        },
+        "durations": [
+          {
+            "duration": 14.733770633,
+            "location": "snapdeal.feature:29"
+          }
+        ]
+      }
+    ]
+  }
+]
