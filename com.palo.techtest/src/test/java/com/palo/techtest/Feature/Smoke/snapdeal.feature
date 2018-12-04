@@ -26,7 +26,7 @@ Feature: Search and Verify Product Details
     When user should able select "<Facet1>", "<Facet2>","<Facet3>","<Facet4>"
     And user should able to list down the product name, INR Price, Offer of the available brand "<Facet2>","<Facet3>","<Facet4>"
     Then user should able to verify the brand name price and offer of the selected product "<Facet2>" or "<Facet3>" or "<Facet4>"
-		And close browser
+    And close browser
 		
     Examples: 
       | Facet1  | Facet2 | Facet3 | Facet4   |
@@ -45,6 +45,6 @@ Feature: Search and Verify Product Details
     Then user should able to verify the details of the selected brand
       | InputFileName | SheetName | RowId   |
       | Search_Input  | Search    | Search1 |
-		And close browser
+    And close browser
 
    
