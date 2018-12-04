@@ -1,5 +1,5 @@
 @snapdeal
-Feature: AutoPaymentFeature
+Feature: Search and Verify Product Details
 
   #--------------------------------  Scenario Flow 1 --------------------------------------------------#
   Background: 
